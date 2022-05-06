@@ -1,22 +1,13 @@
 # 📊 Project: Simple API 2
 
-### Goal: Display data returned from an api
+A simple gif API that takes an input and returns eight gifs
 
-### How to submit your code for review:
+#### Link to Project: 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Screen Shot 2022-05-06 at 3 36 34 PM](https://user-images.githubusercontent.com/101993328/167205911-100ed4d9-1ed7-40b7-a019-4b535aafcba6.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+Tech used: HTML, CSS, JavaScript
+
+## API's Used
+https://tenor.com/gifapi/documentation
