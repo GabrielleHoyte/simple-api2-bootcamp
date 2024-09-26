@@ -1,0 +1,79 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+h1, h2, h3{
+  color: #399ce6;
+}
+input{
+  text-align: center;
+  background-color: #399ce6;
+  color: white;
+  border-style: none;
+  height: 25px;
+}
+input::placeholder{
+  color: white;
+}
+.button{
+  display: inline;
+  margin-left: 0.5%;
+}
+button{
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #399ce6;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  color: white;
+}
+.button:hover .fa-circle-play{
+  color: #399ce6;
+  transition: 0.9s;
+  transform: rotateX(-180deg);
+}
+button:hover{ 
+animation: pulse 1s infinite;
+animation-timing-function: linear;   
+}
+@keyframes pulse {
+0% { transform: scale(1); }
+50% { transform: scale(1.1);}
+100% { transform: scale(1); }
+}
+img{
+  width: 250px;
+}
+.gridOne, .gridTwo{
+  display: flex;
+}
+.gridOne div, .gridTwo div{
+  flex: 1;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* @media screen and (max-width: 980px){
+  h3{
+    transform: translate(450%, 675%);
+  }
+  h2{
+    transform: translate(-21%, 1680%) skew(-5deg, 0deg);
+  }
+} */
